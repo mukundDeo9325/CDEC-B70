@@ -108,6 +108,6 @@
 | Change Directory        | `cd foldername/`       |
 | Create File             | `touch filename`       |
 | Make Directory          | `mkdir foldername`     |
-| copy files              | 'cp source destination | 
+| copy files              | 'cp source destination'| 
 ---
 ```
