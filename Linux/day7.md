@@ -90,6 +90,18 @@ Linux provides several shortcuts to improve efficiency while navigating the file
 - Use **Tab Completion** to auto-complete file and directory names.
 - Leverage **`alias`** to create shortcuts for frequently used commands.
   - Example:
-    ```
-    alias ll='ls -l'
-    ```
+  - open file from home dir of user
+```
+cd
+nano .bashrc
+```
+```
+alias ll='ls -l'
+alias m='mkdir'
+alias s='systemctl'
+```
+- to run file 
+```
+source .bashrc
+```
+
