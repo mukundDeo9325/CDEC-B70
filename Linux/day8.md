@@ -64,10 +64,12 @@ Vim works in different **modes**, each designed for a specific task.
 ## Basic Navigation in Command Mode
 ```text
 yy  → Copy line
+nyy -> copy number of lines 
 yw  → Copy word
 p   → Paste copied content
 dw  → Delete word
 dd  → Delete line
+ndd -> delete number of lines 
 ```
 
 ** Undo and Redo (Command Mode)
