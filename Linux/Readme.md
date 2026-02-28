@@ -101,13 +101,93 @@
 
 ## **Basic Linux Commands**
 
-| Action                  | Command                |
-| ----------------------- | ---------------------- |
-| Check Current Directory | `pwd`                  |
-| List Files/Folders      | `ls`                   |
-| Change Directory        | `cd foldername/`       |
-| Create File             | `touch filename`       |
-| Make Directory          | `mkdir foldername`     |
-| copy files              | 'cp source destination'| 
+| Action                  | Command            |
+| ----------------------- | ------------------ |
+| Check Current Directory | `pwd`              |
+| List Files/Folders      | `ls`               |
+| Change Directory        | `cd foldername/`   |
+| Create File             | `touch filename`   |
+| View File Content       | `cat filename`     |
+| Make Directory          | `mkdir foldername` |
+
 ---
+
+## **Linux File System Structure**
+
+Everything starts from **root (/)**.
+
+| Directory | Purpose                        |
+| --------- | ------------------------------ |
+| `/home`   | User home directories          |
+| `/etc`    | System configuration files     |
+| `/var`    | Logs and variable data         |
+| `/bin`    | Essential system commands      |
+| `/usr`    | Installed software & libraries |
+| `/tmp`    | Temporary files                |
+| `/dev`    | Device files                   |  
+| `/lib`    | System libraries               |
+| `/opt`    | Optional software packages     |
+| `/root`   | Root user home directory       |
+| `/srv`    | Service data                   |
+| `/boot`   | Boot loader files              |
+| `/mnt`    | Mount points for external drives|
+| `/proc`   | Process and kernel information  |
+| `/sys`    | System information              |
+| `/media`  | Removable media mount points    |
+| `/run`    | Runtime variable data           |
+| `/sbin`   | System administration binaries  |
+| `/lib64`  | 64-bit system libraries         |
+
+---
+
+## **Vim Editor Basics**
+
+* Vim works in different modes:
+
+  * **Command Mode**: Navigation and shortcuts -->esc
+  * **Insert Mode**: Typing text (`i` to enter)
+  * **Visual Mode**: Selecting text (`v` to enter)
+  * **Execute Mode**: Running commands (`:`)-->esc-->:
+
+**Useful Keys:**
+
+* Enter Insert Mode → `i`
+* Save File → `:w`
+* Quit → `:q`
+* Save & Quit → `:wq`
+* Undo → `u`
+* Redo → `Ctrl + r`
+* Delete Line → `dd`
+* Copy Line → `yy`
+* Paste Line → `p`
+* Search → `/text`
+* Replace → `:%s/old/new/g`
+* remove line numbers --> :set nonu
+* set line numbers --> :set nu
+
+
+## commands 
+cd --> change directory
+ls --> list files and folders
+pwd --> present working directory
+mkdir --> make directory (empty)
+touch --> create a file / time update a file
+rm --> remove file
+rmdir --> remove directory(empty)
+rm -r --> remove directory (with files)
+rm -rvf --> remove directory forcefully (with files)
+cp --> copy file
+mv --> move file / rename file
+cat --> view file content 
+tail --> view last 10 lines of file
+head --> view first 10 lines of file
+top --> view running processes
+ps --> view snapshot of processes
+du --> disk usage
+free --> view memory usage
+less --> view large files page by page last 10 lines of file
+more --> view large files page by page first 10 lines of file
+
 ```
+- https://www.redhat.com/en/blog/introduction-vi-editor
+- https://www.redhat.com/en/blog/get-started-vi-editor
