@@ -119,6 +119,7 @@ Everything starts from **root (/)**.
 | Directory | Purpose                        |
 | --------- | ------------------------------ |
 | `/home`   | User home directories          |
+| `/root`   | Root user home directory       |
 | `/etc`    | System configuration files     |
 | `/var`    | Logs and variable data         |
 | `/bin`    | Essential system commands      |
@@ -126,8 +127,8 @@ Everything starts from **root (/)**.
 | `/tmp`    | Temporary files                |
 | `/dev`    | Device files                   |  
 | `/lib`    | System libraries               |
+| `/lib64`  | 64-bit system libraries         |
 | `/opt`    | Optional software packages     |
-| `/root`   | Root user home directory       |
 | `/srv`    | Service data                   |
 | `/boot`   | Boot loader files              |
 | `/mnt`    | Mount points for external drives|
@@ -136,7 +137,7 @@ Everything starts from **root (/)**.
 | `/media`  | Removable media mount points    |
 | `/run`    | Runtime variable data           |
 | `/sbin`   | System administration binaries  |
-| `/lib64`  | 64-bit system libraries         |
+
 
 ---
 
@@ -181,8 +182,6 @@ mv --> move file / rename file
 cat --> view file content 
 tail --> view last 10 lines of file
 head --> view first 10 lines of file
-top --> view running processes
-ps --> view snapshot of processes
 du --> disk usage
 free --> view memory usage
 less --> view large files page by page last 10 lines of file
