@@ -35,3 +35,32 @@ The `su` command is used to switch to another user account in a Linux system. By
 
 example:
 sudo <command>  --> execute command with superuser privileges
+
+```
+crete 3 user with help of adduser commaand
+user1 --> crete sudo user
+user2 --> normal user and no chnage
+user3 --> normal user change home dir permission to rwxrwxrwx
+```
+- add user2 to user1 group `usermod -aG group user` 
+- try switching to home dir withouth switching user
+- crete file in other user home dir
+- chek limitation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
