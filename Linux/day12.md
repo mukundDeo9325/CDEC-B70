@@ -13,7 +13,7 @@ Link count indicates the number of hard links associated with a file or director
   - Points to the file name and path.
   - Can span across different file systems.
   - If the original file is deleted, the soft link becomes a broken link and no longer points to valid data.
-[inode](https://www.redhat.com/en/blog/inodes-linux-filesystem)
+- [inode](https://www.redhat.com/en/blog/inodes-linux-filesystem)
 ## sudo 
 The `sudo` command allows a permitted user to execute a command as the superuser or another user, as specified by the security policy. It is commonly used to perform administrative tasks that require elevated privileges.
 
