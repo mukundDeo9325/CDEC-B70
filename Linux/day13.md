@@ -69,3 +69,27 @@ export VISUAL=vim
 ```
 source ~/.bashrc
 ```
+
+```
+tar -cvf file.tar /var/log/
+  194  ls
+  195  cp file.tar file1.tar
+  196  cp file.tar file2.tar
+  197  cp file.tar file3.tar
+  198  ls
+  199  ls -lh 
+  200  gzip file1.tar 
+  201  bzip2 file2.tar 
+  202  xz file3.tar 
+  203  ls
+  204  ls -lh
+```
+
+
+
+
+
+
+
+
+
