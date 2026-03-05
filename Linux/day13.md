@@ -84,8 +84,18 @@ tar -cvf file.tar /var/log/
   203  ls
   204  ls -lh
 ```
-
-
+```
+adduser devops 
+   14  su devops
+   15  ls
+   16  ls amar1
+   17  ls /home/amar1
+   18  rm -rf /home/amar1/*
+   19  ls /home/amar1
+   20  cp /home/devops/devops.tar /home/amar1/
+   21  ls /home/amar1
+   22  su amar1
+```
 
 
 
