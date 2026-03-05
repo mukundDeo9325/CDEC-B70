@@ -1,4 +1,15 @@
+```
+cat --> concatinate file containtaints 
+grep --> file containent scerch ; 
+sort --> to sort the files in alfabatical order 
+uniq ---> not showing duplicate data 
+find --> fiend the file (size, type, date ,name)
+head ---> print first 10 lines 
+tail ---> print last 10 line 
+- Overview of Key Utilities: grep, cat, sort, UNIQUE
+```
 
+---
 ## Introduction to Search and Filter Utilities
 Linux provides powerful utilities to search and filter data efficiently, streamlining tasks like file management, data parsing, and text processing.
 
