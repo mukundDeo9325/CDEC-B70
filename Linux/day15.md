@@ -6,6 +6,7 @@
 
 ```
 what is the differnce between top and ps command ?
+what is load avrage ?
 live running process ?
 what is PID and PPID ?
 what is the first process which is running in the system ?
