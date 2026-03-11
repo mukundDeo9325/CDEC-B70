@@ -39,6 +39,15 @@ IPv4 addresses are divided into 5 classes: A, B, C, D, and E.
 - **0.x.x.x** → Reserved  
 - **127.x.x.x** → Loopback (localhost)  
 
+### private IP ranges 
+```
+Class A: 10.0.0.0 – 10.255.255.255 (CIDR: 10.0.0.0/8) - Used for large enterprise networks.
+Class B: 172.16.0.0 – 172.31.255.255 (CIDR: 172.16.0.0/12) - Used for medium-sized networks.
+Class C: 192.168.0.0 – 192.168.255.255 (CIDR: 192.168.0.0/16) - Common for home and small office routers.
+
+```
+
+
   
 ### Protocols
 
