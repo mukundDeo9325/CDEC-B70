@@ -107,6 +107,6 @@ ping google.com
 
 ## commands on linux networking
 1. ifconfig : Display or configure network interfaces.
-2. ip : Show/manipulate routing, devices, policy routing, and tunnels.
+2. ip a : Show/manipulate routing, devices, policy routing, and tunnels.
 3. ping : Test connectivity to a host.
 4. nslookup : Query DNS to obtain domain name or IP address mapping.
