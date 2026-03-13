@@ -32,7 +32,8 @@ check weather auto assing public ip is on or not --> enable
    ![bash_script](./images/Bash_script.png)
  ```bash
   #!/bin/bash 
-sudo -i 
+sudo -i
+apt update -y 
 apt install apache2 -y 
 systemctl start apache2 
 systemctl enable apache2 
@@ -40,7 +41,8 @@ echo "this is test server $HOSTNAME" >/var/www/html/index.html
 ```
 ```bash
 #!/bin/bash 
-sudo -i 
+sudo -i
+apt update -y
 apt install nginx -y 
 systemctl start nginx
 systemctl enable nginx
