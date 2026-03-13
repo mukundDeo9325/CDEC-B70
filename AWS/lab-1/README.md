@@ -38,6 +38,17 @@ systemctl start apache2
 systemctl enable apache2 
 echo "this is test server $HOSTNAME" >/var/www/html/index.html
 ```
+```bash
+#!/bin/bash 
+sudo -i 
+apt install nginx -y 
+systemctl start nginx
+systemctl enable nginx
+echo "this is test server $HOSTNAME" >/var/www/html/index.html
+```
+
+
+
 9. server check
    ![serevr_check](./images/check_server_HTTP.png)
 10. if want to connect to instance click on connect
