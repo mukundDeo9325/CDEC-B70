@@ -23,7 +23,8 @@
 ## Cloud Models (IAAS, PAAS, SAAS)
 - https://www.geeksforgeeks.org/software-engineering/difference-between-iaas-paas-and-saas/
 - https://www.eginnovations.com/blog/saas-vs-paas-vs-iaas-examples-differences-how-to-choose/
-![IAAS, PAAS, SAAS](./Images/Cloudmodels.png)
+<img width="915" height="682" alt="Screenshot 2026-03-23 at 7 33 48 PM" src="https://github.com/user-attachments/assets/520e2383-cc87-4f89-a51d-61640902d574" />
+
 
 
 
