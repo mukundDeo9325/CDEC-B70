@@ -38,3 +38,4 @@ what is EC2?
 what is Region?
 what is Availability Zone?
 ```
+

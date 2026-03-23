@@ -1,4 +1,3 @@
-- SSH service (Key based Authentication)
 ## Ec2 lanch 
 [ec2](./lab-1)
 ### dashboard 

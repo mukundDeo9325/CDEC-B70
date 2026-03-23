@@ -31,7 +31,7 @@ check weather auto assing public ip is on or not --> enable
 8. advance option run simple bash script
    ![bash_script](./images/Bash_script.png)
  ```bash
-  #!/bin/bash 
+#!/bin/bash 
 sudo -i
 apt update -y 
 apt install apache2 -y 
@@ -39,18 +39,6 @@ systemctl start apache2
 systemctl enable apache2 
 echo "this is test server $HOSTNAME" >/var/www/html/index.html
 ```
-```bash
-#!/bin/bash 
-sudo -i
-apt update -y
-apt install nginx -y 
-systemctl start nginx
-systemctl enable nginx
-echo "this is test server $HOSTNAME" >/var/www/html/index.html
-```
-
-
-
 9. server check
    ![serevr_check](./images/check_server_HTTP.png)
 10. if want to connect to instance click on connect
