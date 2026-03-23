@@ -1,0 +1,2 @@
+- Security Group (SSH and RDP Port)
+- Create Instance of Windows
