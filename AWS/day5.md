@@ -44,3 +44,10 @@ For HPC applications requiring low latency and high performance.
 - Examples: Hpc6a, Hpc7g
 
 [Refer to AWS Instance Types Documentation](https://aws.amazon.com/ec2/instance-types/)
+
+
+<img width="677" height="535" alt="Screenshot 2026-03-24 at 7 36 47 PM" src="https://github.com/user-attachments/assets/b62f0174-b2fa-48d0-8d1a-2bdc4fb10b91" />
+
+
+
+
