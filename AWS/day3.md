@@ -4,6 +4,7 @@
 
 ### SG 
 WHAT IS SEQURITY GROUP ?
+
 <img width="686" height="418" alt="Screenshot 2026-01-06 at 6 50 45 PM" src="https://github.com/user-attachments/assets/b19c933c-2113-4120-945c-3bf4743f9ad2" />
 
 ### RDP Server 
