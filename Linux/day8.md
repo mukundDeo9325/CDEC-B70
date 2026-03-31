@@ -1,10 +1,10 @@
 ## Editors
-
+```
 vi ---> visual editor
 vim ---> improved visual editor
 nano ---> simple text editor
 piko ---> lightweight text editor
-
+```
 ---
 # practice vim 
 - https://openvim.com
