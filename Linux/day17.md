@@ -52,13 +52,19 @@ Class C: 192.168.0.0 – 192.168.255.255 (CIDR: 192.168.0.0/16) - Common for hom
 ### Protocols
 
 | Protocol | Purpose |
-|--------|--------|----|
-| TCP | Reliable communication | --> Connection-oriented |--|
-| UDP | Fast but unreliable | --> Connectionless |--|
-| HTTP/HTTPS | Web communication | --> Secure |80/443|
+|--------|--------|
+| TCP | Reliable communication | --> Connection-oriented |
+| UDP | Fast but unreliable | --> Connectionless |
+| HTTP/HTTPS | Web communication | --> Secure |
 | FTP | File transfer | --> Secure |21 |
-| SSH | Secure remote access | --> Encrypted |22|
-| ICMP | Network diagnostics | --> Ping |--|
+| SSH | Secure remote access | --> Encrypted |
+| ICMP | Network diagnostics | --> Ping |
+
+http - 80 
+https - 443 
+ftp - 21
+ssh - 22
+
 
 ---
 
