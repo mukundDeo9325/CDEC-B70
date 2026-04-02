@@ -60,11 +60,12 @@ Class C: 192.168.0.0 – 192.168.255.255 (CIDR: 192.168.0.0/16) - Common for hom
 | SSH | Secure remote access | --> Encrypted |
 | ICMP | Network diagnostics | --> Ping |
 
+```
 http - 80 
 https - 443 
 ftp - 21
 ssh - 22
-
+```
 
 ---
 
