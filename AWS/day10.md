@@ -1,4 +1,4 @@
-## Jump Server [](./lab-2)
+## Jump Server [lab-2](./lab-2)
 
 
 
