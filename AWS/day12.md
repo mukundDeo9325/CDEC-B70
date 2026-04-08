@@ -16,7 +16,9 @@ An Elastic IP address is a static, public IPv4 address designed for dynamic clou
 A placement group is a logical grouping of instances within a single Availability Zone. Placement groups are used to meet the needs of applications that benefit from low network latency, high throughput, or both. There are two types of placement groups: cluster placement groups and spread placement groups.
 
 ## NACL vs SG!
-<img width="754" height="584" alt="Screenshot 2026-01-21 at 3 47 33 PM" src="https://github.com/user-attachments/assets/000ded84-c694-4ed1-81a8-6796fd52d45d" />
+<img width="873" height="673" alt="Screenshot 2026-04-08 at 7 43 12 PM" src="https://github.com/user-attachments/assets/acc0bd6c-9f1c-408a-8cbe-96d352ae4275" />
+
+
 
 Network Access Control Lists (NACLs) and Security Groups (SGs) are both used to control traffic to and from AWS resources, but they operate at different levels and have different use cases.
 
