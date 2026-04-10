@@ -1,3 +1,6 @@
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html
+
+
 ## 
 - Explain complete Dashboard of EC2  
 <img width="800" height="287" alt="Screenshot 2026-01-08 at 6 56 57 PM" src="https://github.com/user-attachments/assets/ca11ee8e-f92c-4919-ba03-18196ee76333" />
